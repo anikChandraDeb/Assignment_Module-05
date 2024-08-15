@@ -36,56 +36,222 @@
     <!-- 10 Bootstrap button -->
     <div class="container-fluid">
         <div class="row m-3">
-            .col-  
+            <p class="h3 text-center">Bootstrap Button</p>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary w-100 m-2">Primary</button>
+                <button type="button" class="btn btn-outline-primary  w-100 m-2">Primary</button>
+                <button type="button" class="btn btn-secondary w-100 m-2">Secondary</button>
+                <button type="button" class="btn btn-outline-secondary w-100 m-2">Secondary</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-success w-100 m-2">Success</button>
+                <button type="button" class="btn btn-outline-success  w-100 m-2">Success</button>
+                <button type="button" class="btn btn-danger w-100 m-2">Danger</button>
+                <button type="button" class="btn btn-outline-danger w-100 m-2">Danger</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-warning w-100 m-2">Warning</button>
+                <button type="button" class="btn btn-outline-warning  w-100 m-2">Warning</button>
+                <button type="button" class="btn btn-info w-100 m-2">Info</button>
+                <button type="button" class="btn btn-outline-info w-100 m-2">Info</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-light w-100 m-2">Light</button>
+                <button type="button" class="btn btn-outline-light  w-100 m-2 text-dark">Primary</button>
+                <button type="button" class="btn btn-dark w-100 m-2">Dark</button>
+                <button type="button" class="btn btn-outline-dark w-100 m-2">Dark</button>
+            </div>
         </div>
     </div>
 
     <!-- Card Section -->
     <div class="container-fluid">
-        <div class="row">
+        <div class="row border p-2">
+            <p class="h2 text-center">Card Section</p>
             <div class="col-3">
                 <div class="card" style="width: 18rem;">
                     <img src="img/action.png" class="card-img-top" alt="Action">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="card-title">Programming</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-primary">More</a>
                     </div>
                   </div>
             </div>
             <div class="col-3">
                 <div class="card" style="width: 18rem;">
-                    <img src="img/action.png" class="card-img-top" alt="Action">
+                    <img src="img/airpod.png" class="card-img-top" alt="Action">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="card-title">Data Structure</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-primary">More</a>
                     </div>
                   </div>
             </div>
             <div class="col-3">
                 <div class="card" style="width: 18rem;">
-                    <img src="img/action.png" class="card-img-top" alt="Action">
+                    <img src="img/drone.png" class="card-img-top" alt="Action">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="card-title">Algorithm</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-primary">More</a>
                     </div>
                   </div>
             </div>
             <div class="col-3">
                 <div class="card" style="width: 18rem;">
-                    <img src="img/action.png" class="card-img-top" alt="Action">
+                    <img src="img/camera.png" class="card-img-top" alt="Action">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="card-title">Codeforces</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="#" class="btn btn-primary">More</a>
                     </div>
                   </div>
             </div>
         </div>
     </div>
-    
+    <!-- Form and List -->
+    <div class="container">
+        <div class="row mt-5 border p-2">
+            <div class="col-6">
+                <p class="h3 text-center">Form Section</p>
+                <form action="">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control form-control-sm"/>
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <labelclass="form-label">Language</labelclass=>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Select Language</option>
+                        <option value="1">C</option>
+                        <option value="2">C++</option>
+                        <option value="3">Java</option>
+                      </select>
+                      <labelclass="form-label">Gender</labelclass=>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Male
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Female
+                        </label>
+                        <br>
+                        
+                      </div>
+                      <button class="btn btn-primary w-100">Submit</button>
+                      <br>
+                </form>
+            </div>
+            <div class="col-6">
+                <p class="h3 text-center">List</p>
+                <ul class="list-group">
+                    <li class="list-group-item">Programming</li>
+                    <li class="list-group-item">Data Strucutre</li>
+                    <li class="list-group-item">Algorithm</li>
+                    <li class="list-group-item">Database</li>
+                    <li class="list-group-item">Operating System</li>
+                    <li class="list-group-item">Computer Architecture</li>
+                    <li class="list-group-item">Artificial Intelligence</li>
+                    <li class="list-group-item">Machine Learning</li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+    <!--table and progress bar  -->
+    <div class="container">
+        <div class="row mt-5 border p-2">
+            <div class="col-6">
+                <div class="">
+                    <p class="h2 text-center">Progress bar</p>
+                    <p class="h4">C++</p>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar w-100"></div>
+                    </div>
+                    <p class="h4">Algorithm</p>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar w-50"></div>
+                    </div>
+                    <p class="h4">Data Strucutre </p>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar w-75"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <p class="h3 text-center">Table</p>
+                <table class="table table-striped border"> 
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Department</th>
+                        <th scope="col">CGPA</th>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Anik</td>
+                        <td>CSE</td>
+                        <td>3.65</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Akash</td>
+                        <td>EEE</td>
+                        <td>3.50</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Asim</td>
+                        <td>ME</td>
+                        <td>3.55</td>
+                      </tr>
+                  </table>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center mt-5 border p-3">
+            <div class="col-4">
+                <p class="h3">Dropdown</p>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">C</a></li>
+                      <li><a class="dropdown-item" href="#">C++</a></li>
+                      <li><a class="dropdown-item" href="#">Javascript</a></li>
+                    </ul>
+                  </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center mt-5 mb-5 border p-3">
+            <div class="col-4">
+                <p class="h3">Pagination</p>
+                
+
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                  </nav>
+
+            </div>
+        </div>
+    </div>
+
     <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
